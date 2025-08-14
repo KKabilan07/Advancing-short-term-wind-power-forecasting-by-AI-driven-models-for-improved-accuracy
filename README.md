@@ -24,17 +24,6 @@ The dataset is sourced from the [Wind Turbine SCADA Dataset](https://www.kaggle.
 
 The dataset has no missing values, but preprocessing addresses noise and non-stationarity.
 
-## 🚀 Usage
-
-The repository includes Jupyter Notebooks for reproducibility:
-- **`data_preprocessing.ipynb`**: Data loading, temporal alignment, cyclic encoding, lag features, normalization, PCA, VMD, and noise augmentation.
-- **`anomaly_detection.ipynb`**: LSTM Autoencoder and PINN for anomaly detection with Betz’ law constraints.
-- **`ml_models.ipynb`**: Training and evaluation of ML models (XGBoost, LightGBM, Random Forest).
-- **`dl_models.ipynb`**: Training and evaluation of DL models (Vanilla Transformer, Informer, Autoformer, TFT).
-- **`evaluation.ipynb`**: Computes R², MSE, RMSE, MAE, and generates learning curves and prediction plots.
-
-
-```
 
 ## 📈 Results
 
